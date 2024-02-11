@@ -137,7 +137,6 @@ nav.navbar a.navbar-brand {
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #ffffff !important;
-
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -293,7 +292,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.jpg');
+  background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -329,20 +328,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 .banner p {
-  color: #ffffff;
+  /* color: #ffffff; */
+  background: #00ff9d;
+  background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
-  text-shadow:
-      0 0 7px #ffffffc2,
-      0 0 10px #ffffffc4,
-      0 0 21px #ffffffb9,
-      0 0 42px rgb(255, 60, 0),
-      0 0 82px rgba(0, 255, 170, 0.582),
-      0 0 92px rgba(0, 255, 170, 0.555),
-      0 0 102px #0fa,
-      0 0 151px #0fa;
 }
 
 .banner button {
@@ -353,7 +347,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to top, #ff2715, #ff0049, #eb007a, #e9c3e7, #fefeff);
 }
 
 .banner button svg {
@@ -459,7 +452,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project p {
-  /* color: #B8B8B8; */
   background: #00FF00;
   background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
   -webkit-background-clip: text;
@@ -769,10 +761,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  /* color: #B8B8B8; */
   background: linear-gradient(45deg, cyan, yellow);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-  letter-spacing: 0.5px;
-  margin-top: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
 }
